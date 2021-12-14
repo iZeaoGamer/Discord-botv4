@@ -1,0 +1,17 @@
+---
+version: 3
+
+discord:
+  token: "login token here"
+  interactions_over_gateway: true
+  use_plugin_cacert: true
+
+logging:
+  debug: true
+  max_files: 28
+  directory: "logs"
+
+protocol:
+  packets_per_tick: 50
+  heartbeat_allowance: 60
+...
